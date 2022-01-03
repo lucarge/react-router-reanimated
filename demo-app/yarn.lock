@@ -4434,6 +4434,11 @@ react-router-native@5.2.0:
     prop-types "^15.6.1"
     react-router "5.2.0"
 
+react-router-reanimated@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-router-reanimated/-/react-router-reanimated-0.1.0.tgz#e3d4a016b8e0fb07ad1f8d0c4322bf35e902093d"
+  integrity sha512-YtCM/zcpbiTBaS6MKCqmnWJOW3DhLdBmDdKjYfN4xA4PLpLGYqJ69et9297JfJq8OUo7xQCLf8VRuYA1forJtQ==
+
 react-router@5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"

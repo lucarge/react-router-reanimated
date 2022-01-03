@@ -2,7 +2,7 @@ import {MemoryHistory} from 'history';
 import React from 'react';
 import {Button, StyleProp, View, ViewStyle} from 'react-native';
 import {NativeRouter, Route, useHistory} from 'react-router-native';
-import {AnimatedSwitch} from './AnimatedSwitch';
+import {AnimatedSwitch} from 'react-router-reanimated';
 
 const viewStyle: StyleProp<ViewStyle> = {
   alignItems: 'flex-start',
