@@ -10,10 +10,9 @@
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.1",
-    "react-native-gesture-handler": "2.1.0",
-    "react-native-reanimated": "2.3.1",
+    "react-native-screens": "3.10.1",
     "react-router-native": "5.2.0",
-    "react-router-reanimated": "0.1.0"
+    "react-router-reanimated": "file:../"
   },
   "devDependencies": {
     "@babel/core": "7.16.7",
