@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/25553165/147833063-f6f73ab4-b24d-464c-
 
 ## Usage
 
-This library is built on top of [`react-native-reanimated`](https://github.com/software-mansion/react-native-reanimated) and [`react-native-gesture-handler`](https://github.com/software-mansion/react-native-gesture-handler). When you're done setting up these dependencies in your app (if you're not using them already), replace the `Switch` you're using from `react-router-native` with the `AnimatedSwitch` provided by this library, and you're all set!
+This library is built on top of [`react-native-screens`](https://github.com/software-mansion/react-native-screens). When you're done [setting it up](https://github.com/software-mansion/react-native-screens#installation) in your app (if you're not using it already), replace the `Switch` you're using from `react-router-native` with the `AnimatedSwitch` provided by this library, and you're all set!
 
 ```diff
 - import { NativeRouter, Route, Switch } from 'react-router-native';
@@ -29,9 +29,7 @@ export default function App() {
 
 ## Limitations
 
-This library requires `react-native-reanimated` at version `2.3.0` or higher, since under the hood it's using the [Layout Animation API](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/layout_animations) introduced in that minor version.
-
-This library is also incompatible with `react-router` at version `6` or higher, since from that version accessing the router's history is not possible anymore, and behind the curtains this library is using it to stack screens one on top of the other.
+This library is incompatible with `react-router` at version `6` or higher, since from that version accessing the router's history is not possible anymore, and behind the curtains this library is using it to stack screens one on top of the other.
 
 ## Motivation
 
